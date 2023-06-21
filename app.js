@@ -37,20 +37,28 @@
    // document.getElementById("result").innerHTML = Math.floor(Math.random() * 100);
     //console.log('4' === 'Henow');
 
-    let age = prompt("กรุณากรอกอายุของคุณ")
-    if(age > 18){
-         document.getElementById("content").innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n0OIhBxg-xg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
-    }else{
-      if(age < 20){
-      document.getElementById("content").innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0wj3yD2Mqkg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
-            }
-      if(age < 18){
-         document.getElementById("content").innerText = "คุณยังอายุน้อยเกินไปที่จะได้รับชม";
-            }
+   //  let age = prompt("กรุณากรอกอายุของคุณ")
+   //  if(age > 18){
+   //       document.getElementById("content").innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n0OIhBxg-xg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
+   //  }else{
+   //    if(age < 20){
+   //    document.getElementById("content").innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0wj3yD2Mqkg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
+   //          }
+   //    if(age < 18){
+   //       document.getElementById("content").innerText = "คุณยังอายุน้อยเกินไปที่จะได้รับชม";
+   //          }
+   // }
+      
+   // for(var counter = 0; counter < 5; counter++){
+   //    console.log("hello" + counter)
+   // }
+
+   let qrt = prompt("จำนวนสินค้า")
+   for(var i = 0; i < qrt; i++)
+   {
+      let item_price = prompt("ราคาสินค้าชิ้นที่" + i)
+      document.getElementById("price-list").innerHTML += item_price
    }
-      2222
-
-
 
 
 
