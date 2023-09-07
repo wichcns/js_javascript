@@ -126,7 +126,11 @@ function toFahrenhei(Celsius)
   return valur.toFixed(2) + "°F";
 }
 
-function toCelsiusProgram()
+function toCelsiusProgram(valur)
 {
-   alert(toCelsius(150))
+   alert(toCelsius(valur))
+}
+function toFahrenheiProgram(valur)
+{
+  alert(toFahrenhei(valur))
 }

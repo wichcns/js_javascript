@@ -8,10 +8,11 @@
 <body>
 
 <h3>โปรแกรมแปลงหน่วย</h3>
-<div id="toCelsius"></div>
-<div id="toFahrenhei"></div>
-<button onclick="toCelsiusProgram()">แปลงเป็นCelsius</button>
-<button onclick="">แปลงเป็นFahrenhei</button>
+<!-- <div id="toCelsius"></div>
+<div id="toFahrenhei"></div> -->
+<input type="text" id="inputValue">
+<button onclick="toCelsiusProgram(document.getElementById('inputValue').value)">แปลงเป็นCelsius</button>
+<button onclick="toFahrenheiProgram(document.getElementById('inputValue').value)">แปลงเป็นFahrenhei</button>
 
 
 
